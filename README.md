@@ -74,6 +74,8 @@ int main() {
 
   darray_set(d, 3, 42);
 
+  darray_insert(d, 3, 10);
+
   darray_foreach(d, print_elem);
 
   darray_free(d);
