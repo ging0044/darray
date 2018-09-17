@@ -18,6 +18,8 @@ void _darray_expand(struct dynamic_array *);
 
 void darray_set(struct dynamic_array *, size_t, void *);
 
+void darray_insert(struct dynamic_array *, size_t, void *);
+
 void *darray_get(struct dynamic_array *, size_t);
 
 void darray_append(struct dynamic_array *, void *);
