@@ -38,6 +38,10 @@ Set the value at a given index of a dynamic array. If the index is out of range,
 
 Append a thing to the end of the array. If this would exceed the capacity, more memory will be allocated.
 
+### `void darray_insert(struct dynamic_array *darray, size_t i, void *thing);`
+
+Insert a thing at the specified index.
+
 ### `void *darray_get(struct dynamic_array *darray, size_t i);`
 
 Get the thing at the given index. If the index is out of range, NULL is returned.
